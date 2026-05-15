@@ -25,4 +25,15 @@ public:
     {
         top = NULL;
     }
+
+    //push operation: insert an elemnt into the toop of the stack
+    int push(int value)
+    {
+        Node *newNode = new Node();
+        newNode->data = value;
+        newNode->next = top;
+        top = newNode;
+        cout << "Push value: " << value << endl;
+        return value;
+    }
 }
