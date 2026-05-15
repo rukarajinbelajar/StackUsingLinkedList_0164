@@ -78,7 +78,7 @@ public:
 
 int main()
 {
-    Stack stack;
+    stack stack;
 
     int choice = 0;
     int value;
@@ -91,5 +91,10 @@ int main()
         cout << "4. Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
+
+        switch (choice)
+        {
+            case 1:
+        }
     }
 }
