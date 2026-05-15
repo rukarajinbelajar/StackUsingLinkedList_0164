@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//mode class representing a single node in the linked list
 class Node
 {
 public:
@@ -12,3 +13,6 @@ public:
         next = NULL;
     }
 };
+
+//stack class
+class stack
