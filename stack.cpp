@@ -54,7 +54,7 @@ public:
 
     void peek()
     {
-        if (isEmpety())
+        if (isEmpty())
         {
             cout << "List is Empty." << endl;
         }
@@ -75,3 +75,8 @@ public:
         return top == NULL; //return true is the top pointer is NULL, indicating an empty stack
     }
 };
+
+int main()
+{
+    
+}
